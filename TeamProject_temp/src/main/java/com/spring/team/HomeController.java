@@ -39,7 +39,6 @@ public class HomeController {
 	}
 	@RequestMapping("test.do")
 	public String test(HttpServletRequest req, Model model) {
-		
 		System.out.println("테스트 ");
 		return "test";
 	}
