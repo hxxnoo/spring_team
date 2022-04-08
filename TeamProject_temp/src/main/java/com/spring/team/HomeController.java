@@ -34,7 +34,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		return "home";
+		return "11555555";
 	}
 	@RequestMapping("test.do")
 	public String test(HttpServletRequest req, Model model) {
